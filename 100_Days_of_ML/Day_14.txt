@@ -1,0 +1,17 @@
+Key Stages of Problem Framing:
+
+Churn Prediction -> percentage of customers who stop using a product/service over a period of time.
+
+Define the Business Goal: Identify the main problem (e.g., increasing Netflix revenue) and set a specific target (e.g., reducing churn rate from 4% to 3.75%) 
+
+Identify the ML Task: Determine the type of problem—in this case, shifting from a classification problem (will they leave?) to a regression problem (what is the probability they will leave?) to enable personalized interventions like targeted discounts 
+
+Evaluate Existing Solutions: Check what solutions are already in place to build upon them
+
+Acquire Data: Identify and collect the necessary data points, such as user watch time, search history, and failed searches, often requiring collaboration with data engineers
+
+Define Metrics: Establish key performance indicators to measure the model's success in achieving the business goal 
+
+Choose Learning Approach: Decide between batch learning (offline training) and online learning (continuous training) based on how volatile the data is
+
+Check Assumptions: Validate that the data required for features is actually available and that the model applies correctly to different contexts (e.g., different geographies)
